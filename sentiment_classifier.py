@@ -37,9 +37,9 @@ pipeline=Pipeline([
     ("tfidf",TfidfVectorizer(ngram_range=(1,2),max_features=3000)),
      ("clf",MultinomialNB())
      ])
-print("model eğitiliyor...")
+print("model training started...")
 pipeline.fit(texts,labels)
-print("eğitim tamamlandı!!!")
+print("model training completed!!!")
 
 emoji_map={
     "pos":"(pozitif)",
