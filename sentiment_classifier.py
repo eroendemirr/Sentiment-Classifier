@@ -42,9 +42,9 @@ pipeline.fit(texts,labels)
 print("model training completed!!!")
 
 emoji_map={
-    "pos":"(pozitif)",
-    "neg":"(negatif)",
-    "neu":"(nötr)"
+    "pos":"(positive)",
+    "neg":"(negative)",
+    "neu":"(neutral)"
     }
 
 print("\nEnter the movie scene line...(type 'exit' to exit)")
